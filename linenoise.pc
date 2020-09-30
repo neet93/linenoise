@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/linenoise
+
+Name: linenoise
+Description: A terminal prompt library.
+URL: https://github.com/neet93/linenoise
+Version: 0.1.0
+Libs: -L${libdir}
+Cflags: -I${includedir}
